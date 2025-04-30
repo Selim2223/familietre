@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <label for="">Fornavn</label> -->
+    <form id="skjema">
+      <div class="skjema">
+        <input type="text" name="navn" id="navnInput1" placeholder="Fornavn" />
+        <input type="number" id="alderInput2" placeholder="Alder" />
+        <input type="text" id="relasjonInput3" placeholder="Relasjon" />
+        <button id="submitButton" onclick="lagre()" type="button" class="knapp1">Legg til</button>
+      </div>
+    </form>
+
+    <main>
+        <ul id="boks"></ul>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

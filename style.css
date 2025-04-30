@@ -1,0 +1,39 @@
+input {
+  margin: 8px 0px;
+}
+
+.skjema {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-left: 50px;
+}
+
+.knapp1 {
+  width: 125px;
+  border-radius: 20px;
+  background-color: #F69999;
+  color: white;
+  margin-top: 8px;
+}
+
+.div-boks{
+  width: 250px;
+}
+
+.person-boks {
+  border: 1px solid #b54646; /* серенькая рамка */
+  border-radius: 10px; /* скругленные углы */
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-top: 70px;
+  background-color: #f9f9f9; /* светлый фон */
+  width: 250px;
+  height: 150px;
+}
+
+button {
+  margin-right: 25px;
+  border-radius: 15px;
+}
+
