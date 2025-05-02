@@ -62,6 +62,7 @@ function visFamilie() {
     const slettKnapp = document.createElement('button');
     slettKnapp.textContent = 'Slett 🚮';
     slettKnapp.style.backgroundColor = 'red';
+
     slettKnapp.style.width = "100px"
 
     slettKnapp.addEventListener('click', () => {
@@ -71,8 +72,8 @@ function visFamilie() {
     const redigerKnapp = document.createElement('button');
     redigerKnapp.textContent = 'Rediger 🔄';
     redigerKnapp.style.backgroundColor = 'green';
+    redigerKnapp.style.marginLeft = "20px"
     redigerKnapp.style.width = "100px"
-
 
     redigerKnapp.addEventListener('click', () => {
       fyllUtSkjema(index);
@@ -91,7 +92,6 @@ function slettPerson(index) {
   familie.splice(index, 1);
   visFamilie();
 }
-
 
 const submitButton = document.getElementById('submitButton');
 
